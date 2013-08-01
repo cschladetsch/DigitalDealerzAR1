@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+	<style type="text/css">
+		.style1
+		{
+			color: #000000;
+			background-color: #FFFF00;
+		}
+	</style>
+</head>
+<body>
+
+	<h1> Statement of Work - Installation</h1>
+	<p>Internal Use Only. Do Not Distribute. (C) 2013 <a href="mailto:christian.schladetsch@gmail.com">Christian Schladetsch</a></p>
+	<p><b>Developer:</b> Christian Schladetsch, Melbourne, Australia. </p>
+	<p><b>Client:</b> Val Chekalkin. Ukraine. <span class="style1">TODO</span>: Client company details.</p>
+	<h2>Overview</h2>
+	<p>This document describes a proposal to implement the <i>Project Concept</i> as described in the document titled 'AR_Trade_development_Christian.pdf'.</p>
+	<p>The technical requirements of the project may be broken down into four orthogonal parts:</p>
+	<ol>
+	<li>Augmented Reality camera system.</li>
+	<li>Skeleton tracking and gesture recognition system.</li>
+	<li>Agent-based character movement (the non-human actors in the system).</li>
+	<li>Integration, deployment and testing.</li>
+	</ol>
+	<p>The proposal is split into three main developmental phases. In the first phase, the first two key systems will be provided, integrated and tested. And in the second stage the remaining two areas will be covered, allowing then for full production to commence 
+		in phase 3.</p>
+	<h2>Phase 1 - Proof of Concept</h2>
+	<p>This phase would provide an application that can be run on a Windows7 computer with a camera attached.</p>
+	<p>In order to test the application, the camera must be pointed at a large area of floor with a marker. The exact representation of the marker will be
+	provided with the application, but in general it will be something like what is shown in the reference video. Specifically, a yellow
+	square glued to the floor approximately 5 meteres away from the camera, directly in front of it.</p>
+	<p>The testable elements of phase 1 are:</p>
+	<ul>
+	<li>The application will recognise when a user enters the marker, and when the user raises a hand when standing on the marker.</li>
+	<li>In response to these actions, an animated 3d model - an 'agent' - (to be provided by the client) will be scripted to walk up to the user, perform an action, and then walk out of frame.</li>
+	<li>There will be no interaction between the agent and the user.</li>
+	<li>The system is only expected to work with one user visible by the system.</li>
+	</ul>	
+	<p>There are various ways this could fail:</p>
+	<ul>
+	<li>Difficulty in getting a clean recognition of the skeleton at various lighting conditions.</li>
+	<li>The system may only have a narrow distance band where good recogition can occur.</li>
+	<li>Matching the vanishing point and lighting conditions used by the agents and the real scene may be difficult.</li>
+	</ul>
+	<h2>Phase 2 - Interaction</h2>
+	<p>If phase 1 is a success, then we can move ahead with phase 2. </p>
+	<p>This would take as long as phase 1, and is said to be complete when:</p>
+	<ul>
+	<li>All issues raised in phase 1 are addressed.</li>
+	<li>The system works with many people milling around the area.</li>
+	<li>The system correctly determines when (multiple) people walk in and out of the marker region.</li>
+	<li>The system provides correct triggers and target points for the agent animation system. Specifically, where to move to to interact with the user, where the user's hands are, and whatever other gestures are required as detailed in the <i>Project Concept</i> document.</li>
+	<li>Note that I will not be required to provide the actual scripting control of the agents, however I will work toward that pending art assets provided by the client.</li>
+	</ul>
+	<p>There are various ways this could fail, including:</p>
+	<ul>
+	<li>A better visual camera is needed.</li>
+	<li>A better depth camera is needed.</li>
+	<li>Skeleton tracking does not provide a high-enough resolution to properly match the agents with the users.</li>
+	<li>Lighting and noise may interfere with the system.</li>
+	<li>The system cannot track enough people at once, or fails complete when there are too many systems. Some sort of reasonable fallback state will have to be supplied in these cases.</li>
+	</ul>
+	<h2>Phase 3 - Full Production</h2>
+	<p>This final phase has all the underlying systems in place and in ongoing development. This will mainly be the content production and integration phase and can continue indefinately.</p>
+	<h2>Conclusion</h2>
+	<p>This document has outlined a possible way forward to create the technology stack needed to complete the project. Here, I have broken down the project to three phases, where each successive phase requires the successful completion of the previous phase.</p>
+	<p>I think this is an exciting and ambitious project and would be delighted to be a member of the team. I see my role as supplying the core technologies required, and also to assist in a consultative role in other aspects of the project such as installation, calibration, and user experience elements.</p>
+
+	<h2>Schedule</h2>
+	<p>My hourly rate is $55USD per hour. However, I will provide the first two phases 
+		as fixed-cost deliverables. I will invoice for all payments and the payment details will be in the invoices.</p>
+	<p><b>Note</b> if all goes well - and I expect it to! - the client will have costs due to eLance.com. But, you will also have an awesome product.</p>
+	<h3>Phase 1</h3>
+	<p>Cost: $600USD, which includes all software and hardware (including a PC-Kinect camera) and test-space rental costs on my side.</p>
+	<p>To be provided before July 16 2013.</p>
+	<h3>Phase 2</h3>
+	<p>Will begin only after client acceptance and payment of phase 1.</p>
+	<p>Cost: $500USD, which includes not more than 5 hours work to bugfix and rework as per 
+		results of phase 1. Extra work above 5 hours for rework of phase 1 will be 
+		billed at the stated rate after discussion with client.</p>
+	<p>To be provided before July 20 2013, if an only if phase 1 is successful.</p>
+	<h3>Phase 3</h3>
+	<p>Will begin only after client acceptance and payment of phase 2.</p>
+	<p>Cost: $0USD, which includes up to 5 hours of bug-fixing and re-work as per results of phase 2. Further work will be charged at the stated hourly rate after discussion with client.</p>
+	<p>No further programming work expected other than occasional bug-fixes or extra features.</p>
+
+	<h2>Third-party software licensing</h2>
+	<p>The application I provide will be licenced for <b>non-commerical use only</b>. Specifically, I do not take responsibility for what is done with the application after it is delivered.</p>
+	<p>A full list of third-party libraries that are used will be supplied in the phase 1 documentation.</p>
+
+	<h3>Internal Use Only. Do Not Distribute. (C) 2013 Christian Schladetsch.</h3>
+</body>
+</html>

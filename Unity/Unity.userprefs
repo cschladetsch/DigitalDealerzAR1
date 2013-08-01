@@ -1,0 +1,47 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PrimaryUser.cs">
+    <Files>
+      <File FileName="Assets\ZigFu\Scripts\UserEngagers\ZigEngageSingleUser.cs" Line="1" Column="1" />
+      <File FileName="Assets\ZigFu\Scripts\Viewers\ZigDepthViewer.cs" Line="1" Column="1" />
+      <File FileName="Assets\ZigFu\Scripts\Zig.cs" Line="14" Column="5" />
+      <File FileName="Assets\Scripts\Global.cs" Line="8" Column="12" />
+      <File FileName="Assets\EasyConsole\FrontEnd\UnityGUI\ConsoleGUI.cs" Line="118" Column="14" />
+      <File FileName="Assets\Scripts\PrimaryUser.cs" Line="13" Column="2" />
+      <File FileName="Assets\ZigFu\Scripts\UserControls\ZigHandRaiseDetector.cs" Line="33" Column="17" />
+      <File FileName="Assets\ZigFu\Scripts\UserControls\ZigHandSessionDetector.cs" Line="78" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="PrimaryUser.cs" selected="True" />
+              </Node>
+              <Node name="ZigFu" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="UserControls" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Dev\Gyper\GyperAR1\Unity\Assets\Qualcomm Augmented Reality\Scripts\DefaultTrackableEventHandler.cs" line="68" />
+      <Breakpoint file="C:\Dev\Gyper\GyperAR1\Unity\Assets\ZigFu\Scripts\UserControls\ZigHandSessionDetector.cs" line="51" />
+      <Breakpoint file="C:\Dev\Gyper\GyperAR1\Unity\Assets\ZigFu\Scripts\UserControls\ZigHandSessionDetector.cs" line="96" />
+      <Breakpoint file="C:\Dev\Gyper\GyperAR1\Unity\Assets\ZigFu\Scripts\UserControls\ZigHandSessionDetector.cs" line="90" />
+      <Breakpoint file="C:\Dev\Gyper\GyperAR1\Unity\Assets\ZigFu\Scripts\UserControls\ZigHandSessionDetector.cs" line="83" />
+      <Breakpoint file="C:\Dev\Gyper\GyperAR1\Unity\Assets\ZigFu\Scripts\UserControls\ZigHandSessionDetector.cs" line="119" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
