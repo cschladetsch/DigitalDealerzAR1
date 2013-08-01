@@ -8,3 +8,9 @@
 *.sln
 *.pidb
 myecsp_x64.iso
+
+*.userprefs
+
+# CJS
+Builds/
+Tmp/
